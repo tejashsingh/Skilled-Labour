@@ -1,78 +1,110 @@
 <!DOCTYPE html>
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8">  
     <title>MNNIT_Website</title>
-    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="icon" type="image/x-icon" href="E:\download.png" >
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <CENter>
-    <table cellspacing="0" border="0">
+    <center>
+    <table border="0">
         <tr>
             <td>
-                <img src="C:\Users\Shivansh Agrawal\Downloads\logonew1.png" alt="MNNIT Logo" style="width: 250px;">
+                <img src="http://www.mnnit.ac.in/images/logonew1.png" alt="MNNIT Logo" style="width: 250px;">
             </td>
             <td>
-                <img src="C:\Users\Shivansh Agrawal\Downloads\name33.png" alt="MNNIT clg name" style="width: 500px;">
+                <div class="space"></div>
+                <img src="http://www.mnnit.ac.in/images/newstories/2018/summer/name33.png"     alt="MNNIT clg name" style="width: 500px;">
             </td>
         </tr>
 
     </table>
-
-    <hr>
     <br>
     <div class="dropdown">
         <button class="dropbtn">INSTITUTE <div class="space"></div>▽</button>
         <div class="dropdown-content">
-        <a href="#">Link 1</a><hr class="dropdownl">
-        <a href="#">Link 2</a><hr class="dropdownl">
-        <a href="#">Link 3</a>
+        <a href="#">About the Institute</a>
+        <a href="#">Administration</a>
+        <a href="#">ADMISSIONS</a>
         </div>
     </div>
     <div class="dropdown">
-        <button class="dropbtn">ADMISSIONS <div class="space"></div>▽</button>
+        <button class="dropbtn">DEPARTMENTS<div class="space"></div>▽</button>
         <div class="dropdown-content">
-        <a href="#">Link 1</a><hr class="dropdownl">
-        <a href="#">Link 2</a><hr class="dropdownl">
-        <a href="#">Link 3</a>
+        <a href="#">Engineering</a>
+        <a href="#">Sciences</a>
+        <a href="#">School of Management Studies</a>
+        <a href="#">Cells & SNFCE</a>
+        <a href="#">Research Centres</a>
         </div>
     </div>
     <div class="dropdown">
         <button class="dropbtn">ACADEMICS<div class="space"></div>▽</button>
         <div class="dropdown-content">
-        <a href="#">Link 1</a><hr class="dropdownl">
-        <a href="#">Link 2</a><hr class="dropdownl">
-        <a href="#">Link 3</a>
+        <a href="#">UG Programme</a>
+        <a href="#">PG Programme</a>
+        <a href="#">Doctoral Programme</a>
         </div>
     </div>
     <div class="dropdown">
         <button class="dropbtn">CAMPUS<div class="space"></div>▽</button>
         <div class="dropdown-content">
-        <a href="#">Link 1</a><hr class="dropdownl">
-        <a href="#">Link 2</a><hr class="dropdownl">
-        <a href="#">Link 3</a>
+        <a href="#">Library</a>
+        <a href="#">Hostels</a>
+        <a href="#">Canteen</a>
+        <a href="#">Extra Curriculum</a>
+
         </div>
     </div>
     <div class="dropdown">
         <button class="dropbtn">PLACEMENTS<div class="space"></div>▽</button>
         <div class="dropdown-content">
-        <a href="#">Link 1</a><hr class="dropdownl">
-        <a href="#">Link 2</a><hr class="dropdownl">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
         <a href="#">Link 3</a>
         </div>
     </div>
     <div class="dropdown">
-        <button class="dropbtn">CONTACT<div class="space"></div>▽</button>
-        <div class="dropdown-content">
-        <a href="#">Link 1</a><hr class="dropdownl">
-        <a href="#">Link 2</a><hr class="dropdownl">
-        <a href="#">Link 3</a>
+        <button class="dropbtn"><a href="E:\tejash\c codes\web dev\contacts.html" style="text-decoration: none;">CONTACT</a><div class="space"></div>▽</button>
         </div>
     </div>
       
       <br><br>
 
       <hr class="dropdownl">
-      <p>Images will be inserted here.(js)</p>
+      <div class="w3-content w3-display-container" style="max-width:850px;      "> 
+        <img class="mySlides" src="https://media.glassdoor.com/lst2x/a4/8f/3a/6b/main-building.jpg" style="width: 850px;height: 500px;">
+        <img class="mySlides" src="http://www.mnnit.ac.in/images/newstories/2021/convocation2020/6.jpg" style="width: 850px;height: 500px;">
+        <img class="mySlides" src="http://www.mnnit.ac.in/images/newstories/2021/convocation2020/8.jpg" style="width: 850px;height: 500px;">
+        <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+          <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+          <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>    
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+        </div>
+      </div>
+      <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+      
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
+      }
+      
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        x[slideIndex-1].style.display = "block";  
+      }
+      </script>
       <hr class="dropdownl">
       <br><br>
 
@@ -87,7 +119,12 @@
             </td>
         </tr>
     </table>
-</CENter>
+    </center>
+    <frameset cols= "30%, 40%, 30%">
+        <frame src = "https://media.glassdoor.com/lst2x/a4/8f/3a/6b/main-building.jpg" />
+        <frame src = "http://www.mnnit.ac.in/images/newstories/2021/convocation2020/6.jpg" />
+        <frame src = "http://www.mnnit.ac.in/images/newstories/2021/convocation2020/8.jpg" />        
+    </frameset>
 </body>
 </html>
 
