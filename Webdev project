@@ -80,6 +80,11 @@
       <hr class="dropdownl">
       <br><br>
 
+    
+      
+      <img src="C:\Users\Shivansh Agrawal\Downloads\welcomenew.png" alt="welcome new" style="width: 155px; height: 175px;">
+      <h2><tt><strong>WE WELCOME YOU</strong></tt></h2><br>
+
     <table >
         <tr>
             <td>
@@ -98,41 +103,44 @@
             <tr>
             <td>
                 <div class="implinkcont">
-                <a href="#">→ <div class="space2"></div> Link1</a>
+                <a href="https://nta.ac.in/">→ <div class="space2"></div> National Testing Agency (NTA)</a>
                 </div>
             </td>
             </tr>
             <tr>
                 <td>
                     <div class="implinkcont">
-                    <a href="#">→ <div class="space2"></div> Link2</a>
+                    <a href="https://josaa.nic.in/">→ <div class="space2"></div>Joint Seat Allocation Authority (JOSAA) | India </a>
                     </div>
                 </td>
                 </tr>
                 <tr>
                     <td>
                         <div class="implinkcont">
-                        <a href="#">→ <div class="space2"></div> Link3</a>
+                        <a href="https://nad.gov.in/">→ <div class="space2"></div> National Academic Depository (NAD)</a>
                         </div>
                     </td>
                     </tr>
                     <tr>
                         <td>
                             <div class="implinkcont">
-                            <a href="#">→ <div class="space2"></div> Link4</a>
+                            <a href="https://www.nirfindia.org/Home">→ <div class="space2"></div>National Institutional Ranking Framework (NIRF)</a>
                             </div>
                         </td>
                         </tr>
                         <tr>
                             <td>
                                 <div class="implinkcont">
-                                <a href="#">→ <div class="space2"></div> Link5</a>
+                                <a href="https://www.ariia.gov.in/">→ <div class="space2"></div>Atal Ranking of Institutions on Innovation Achievements (ARIIA)</a>
                                 </div>
                             </td>
                             </tr>
         </table>
 
+    
     </div>
+    
+    
 </CENter>
 </body>
 </html>
