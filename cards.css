@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+
+}
+
+.card1{
+    width: 20%;
+    background-color: rgb(155, 221, 228);
+    border-radius: 5px;
+    margin: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.card1:hover{
+    box-shadow: 2px 2px 10px black;
+}
+
+.image1 img{
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.subhead1{
+    text-align: center;
+}
+
+.des1{
+    text-align: center;
+}
