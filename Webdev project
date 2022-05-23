@@ -2,16 +2,20 @@
 <head>
     <meta charset="utf-8">
     <title>MNNIT_Website</title>
+    <link rel="clg logo icon" href="C:\Users\Shivansh Agrawal\Downloads\download.png">
+
     <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
     <CENter>
-    <table cellspacing="0" border="0">
+    <table border="0">
         <tr>
             <td>
                 <img src="C:\Users\Shivansh Agrawal\Downloads\logonew1.png" alt="MNNIT Logo" style="width: 250px;">
             </td>
+            
             <td>
+                <div class="space"></div>
                 <img src="C:\Users\Shivansh Agrawal\Downloads\name33.png" alt="MNNIT clg name" style="width: 500px;">
             </td>
         </tr>
@@ -23,48 +27,48 @@
     <div class="dropdown">
         <button class="dropbtn">INSTITUTE <div class="space"></div>▽</button>
         <div class="dropdown-content">
-        <a href="#">Link 1</a><hr class="dropdownl">
-        <a href="#">Link 2</a><hr class="dropdownl">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
         <a href="#">Link 3</a>
         </div>
     </div>
     <div class="dropdown">
         <button class="dropbtn">ADMISSIONS <div class="space"></div>▽</button>
         <div class="dropdown-content">
-        <a href="#">Link 1</a><hr class="dropdownl">
-        <a href="#">Link 2</a><hr class="dropdownl">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
         <a href="#">Link 3</a>
         </div>
     </div>
     <div class="dropdown">
         <button class="dropbtn">ACADEMICS<div class="space"></div>▽</button>
         <div class="dropdown-content">
-        <a href="#">Link 1</a><hr class="dropdownl">
-        <a href="#">Link 2</a><hr class="dropdownl">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
         <a href="#">Link 3</a>
         </div>
     </div>
     <div class="dropdown">
         <button class="dropbtn">CAMPUS<div class="space"></div>▽</button>
         <div class="dropdown-content">
-        <a href="#">Link 1</a><hr class="dropdownl">
-        <a href="#">Link 2</a><hr class="dropdownl">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
         <a href="#">Link 3</a>
         </div>
     </div>
     <div class="dropdown">
         <button class="dropbtn">PLACEMENTS<div class="space"></div>▽</button>
         <div class="dropdown-content">
-        <a href="#">Link 1</a><hr class="dropdownl">
-        <a href="#">Link 2</a><hr class="dropdownl">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
         <a href="#">Link 3</a>
         </div>
     </div>
     <div class="dropdown">
         <button class="dropbtn">CONTACT<div class="space"></div>▽</button>
         <div class="dropdown-content">
-        <a href="#">Link 1</a><hr class="dropdownl">
-        <a href="#">Link 2</a><hr class="dropdownl">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
         <a href="#">Link 3</a>
         </div>
     </div>
@@ -86,7 +90,49 @@
                 </div>
             </td>
         </tr>
-    </table>
+    </table><br><br><br>
+
+    <div class="implink">
+        <TT><font size=20 color="white"><br>IMPORTANT LINKS</font></TT><br><br><br>
+        <table border="0" align="left" cellpadding="18">
+            <tr>
+            <td>
+                <div class="implinkcont">
+                <a href="#">→ <div class="space2"></div> Link1</a>
+                </div>
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="implinkcont">
+                    <a href="#">→ <div class="space2"></div> Link2</a>
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="implinkcont">
+                        <a href="#">→ <div class="space2"></div> Link3</a>
+                        </div>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="implinkcont">
+                            <a href="#">→ <div class="space2"></div> Link4</a>
+                            </div>
+                        </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="implinkcont">
+                                <a href="#">→ <div class="space2"></div> Link5</a>
+                                </div>
+                            </td>
+                            </tr>
+        </table>
+
+    </div>
 </CENter>
 </body>
 </html>
