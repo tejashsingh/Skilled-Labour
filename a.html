@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">  
+    <title>MNNIT_Website</title>
+    <link rel="icon" type="image/x-icon" href="E:\download.png" > <!--adding fevicon of mnnit-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> <!--linking w3 school -->
+    <link rel="stylesheet" href="styles.css"> <!-- linking styles.css file-->
+    <link rel="stylesheet" href="cards.css">
+</head>
+<header>
+    <marquee direction="left" style="background-color:red ;">
+        <b>Welcome to MNNIT Website</b>
+    </marquee>
+</header>
+<body>
+    <center>
+    <table border="0">
+        <tr>
+            <td>
+                <img src="http://www.mnnit.ac.in/images/logonew1.png" alt="MNNIT Logo" style="width: 250px;">
+            </td>
+            <td>
+                <div class="space"></div>
+                <img src="http://www.mnnit.ac.in/images/newstories/2018/summer/name33.png"     alt="MNNIT clg name" style="width: 500px;"> 
+            </td>
+        </tr>
+    </table>
+    <br>
+    <div class="dropdown">
+        <button class="dropbtn">INSTITUTE </button> <!-- INSTITUTE drop down button-->
+        <div class="dropdown-content">
+        <a href="#">About the Institute</a>
+        <a href="#">Administration</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn">DEPARTMENTS</button> <!-- Departments drop down button-->
+        <div class="dropdown-content">
+        <a href="#">Engineering</a>
+        <a href="#">Sciences</a>
+        <a href="#">School of Management Studies</a>
+        <a href="#">Cells & SNFCE</a>
+        <a href="#">Research Centres</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn">ACADEMICS</button> <!-- Academics drop down button-->
+        <div class="dropdown-content">
+        <a href="E:\tejash\c codes\web dev\academics\ug.html">UG Programme</a>
+        <a href="E:\tejash\c codes\web dev\academics\pg.html">PG Programme</a>
+        </div>
+    </div>  
+    <div class="dropdown">
+        <button class="dropbtn">CAMPUS</button> <!-- Campus drop down button-->
+        <div class="dropdown-content">
+        <a href="#">Library</a>
+        <a href="#">Hostels</a>
+        <a href="#">Canteen</a>
+        <a href="#">Extra Curriculum</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn"><a href="E:\tejash\c codes\web dev\placements.html" style="text-decoration: none;">PLACEMENTS</a><div class="space"></div></button>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn"><a href="E:\tejash\c codes\web dev\contacts.html" style="text-decoration: none;">CONTACT</a><div class="space"></div></button>
+        </div>
+    </div>
+      
+      <br><br>
+
+      <hr class="dropdownl">
+      <!-- <div class="w3-content w3-display-container" style="max-width:850px;"> 
+        <img class="mySlides" src="E:\1.jpg" style="width: 850px;height: 500px;">
+        <img class="mySlides" src="https://images.shiksha.com/mediadata/images/1535368937php8IauG3.jpeg" style="width: 850px;height: 500px;">
+        <img class="mySlides" src="E:\main-qimg-9dc5358957951b4e828387694c2b7b98.webp" style="width: 850px;height: 500px;">
+        <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+          <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+            <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+            <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+          </div>
+        </div>
+      </div> -->
+      <div class="container">
+        <div class="w3-content w3-display-container" style="max-width:850px;"> 
+            <img class="mySlides" src="E:\1.jpg" style="width: 850px;height: 500px;">
+            <img class="mySlides" src="https://images.shiksha.com/mediadata/images/1535368937php8IauG3.jpeg" style="width: 850px;height: 500px;">
+            <img class="mySlides" src="E:\main-qimg-9dc5358957951b4e828387694c2b7b98.webp" style="width: 850px;height: 500px;">
+            <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+                <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+                <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        var myIndex = 0;
+        carousel();
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+        // var slideIndex = 1;
+        // showDivs(slideIndex);
+      
+        // function plusDivs(n) {
+        //     showDivs(slideIndex += n);
+        // }
+        // function currentDiv(n) {  
+        //     showDivs(slideIndex = n);
+        // }
+        // function showDivs(n) {
+        //     var i,j;
+        //     var x = document.getElementsByClassName("mySlides");
+        //     var dots = document.getElementsByClassName("demo");
+        //     if (n > x.length) {slideIndex = 1}
+        //     if (n < 1) {slideIndex = x.length}
+        //     for (i = 0; i < x.length; i++) {
+        //     x[i].style.display = "none";  
+        //     }
+        //     for (j = 0; j < dots.length; j++) {  
+        //         dots[j].className = dots[j].className.replace(" w3-white", "");
+        //     }
+        //     x[slideIndex-1].style.display = "block";
+        //     dots[slideIndex-1].className += " w3-white";
+        // }
+    </script>
+    <hr class="dropdownl">
+    <br><br>
+
+    <table >
+        <tr>
+            <td>
+                <div>
+                <button class="button" role="button">Student <br></button>
+                    <div class="space"></div>
+                <button class="button" role="button">Faculty</button>   
+                </div>
+            </td>
+        </tr>
+    </table>
+    <h1><strong>QUICK ACCESS</strong></h1>
+    <hr class="HRsmall">
+    <div class="card1"> 
+        <div class="image1">    
+            <img src ="https://cracku.in/latest-govt-jobs/wp-content/uploads/2019/12/NTA-UGC-NET-Logo.png" height = "280px" style="width: 300px;border-top-left-radius:12px;border-top-right-radius:12px;" alt="NTA logo" >
+        </div>
+        <div class="des1">
+            <a style = "color:black;  text-decoration:none ;" href = "https://nta.ac.in/"><H1><b>NTA</b></H1></a><br><br>
+        </div>
+    </div>
+    <div class="card1">
+        <div class="image1">
+            <img src ="https://storage.googleapis.com/ezap-prod/forms/719/josaa-logo.png" height = "280px" style="width: 300px;border-top-left-radius:12px;border-top-right-radius:12px;" alt="JOSAA logo">
+        </div>
+        <div class="des1">
+            <a style = "color:black; text-decoration:none ;" href = "https://josaa.nic.in/" ><H1><b>JOSAA</b></H1></a><br><br>
+        </div>
+    </div>
+    <div class="card1">
+        <div class="image1">
+            <img src ="data:image/jpeg;base64,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" height = "280px" style="width: 300px;border-top-left-radius:12px;border-top-right-radius:12px;" alt="ARIIA logo">
+        </div>
+        <div class="subhead1">
+            <h2></h2>
+        </div>
+        <div class="des1">
+            <a style = "color:black;  text-decoration:none ;" href = "https://www.ariia.gov.in/"><H1><b>ARIIA</b></H1></a><br><br>
+        </div>
+    </div>
+    <div class="card1">
+        <div class="image1">
+            <img src ="https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/article_images/2019/07/23/file73gr1a0n3qqi8qwi8jp-1563864055.jpg?itok=LmtpDW9H" height = "280px" style="width: 300px;border-top-left-radius:12px;border-top-right-radius:12px;" alt="MHRD logo">
+        </div>
+        <div class="des1" >
+            <a style = "color:black; text-decoration:none ;" href = "https://www.education.gov.in/en" ><H1><b>MHRD</b></H1></a><br><br>
+        </div>
+    </div>
+    <hr class="dropdownl">
+    <!-- engineering access --> 
+    <h1><strong>Courses offered</strong></h1>
+    <hr class="HRsmall">
+    <div class="card1" style="text-align: center;"> 
+        <div class="des1">
+            <a style = "color:black;  text-decoration:none ;" href = "https://nta.ac.in/"><H1><b>CSE</b></H1></a><br><br>
+        </div>
+    </div>
+    <div class="card1" >
+        <div class="des1">
+            <a style = "color:black; text-decoration:none ;" href = "https://josaa.nic.in/" ><H1><b>ECE</b></H1></a><br><br>
+        </div>
+    </div>
+    <div class="card1">
+        <div class="des1">
+            <a style = "color:black;  text-decoration:none ;" href = "https://www.ariia.gov.in/"><H1><b>EE</b></H1></a><br><br>
+        </div>
+    </div>
+    <div class="card1">
+        <div class="des1" >
+            <a style = "color:black; text-decoration:none ;" href = "https://www.education.gov.in/en" ><H1><b>Mech.</b></H1></a><br><br>
+        </div>
+    </div>
+    <div class="card1">
+        <div class="des1" >
+            <a style = "color:black; text-decoration:none ;" href = "https://www.education.gov.in/en" ><H1><b>PIE</b></H1></a><br><br>
+        </div>
+    </div>
+    <div class="card1">
+        <div class="des1" >
+            <a style = "color:black; text-decoration:none ;" href = "https://www.education.gov.in/en" ><H1><b>CE</b></H1></a><br><br>
+        </div>
+    </div>
+    <div class="card1">
+        <div class="des1" >
+            <a style = "color:black; text-decoration:none ;" href = "https://www.education.gov.in/en" ><H1><b>Civil</b></H1></a><br><br>
+        </div>
+    </div>
+
+
+    </center>
+</body>
+</html> 
