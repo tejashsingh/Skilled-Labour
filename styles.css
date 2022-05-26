@@ -1,0 +1,134 @@
+body{
+    background-color: #eaf6f2;
+}
+
+
+/*img{
+    width: 650px;
+}*/
+
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.button {
+  background-color: #FFFFFF;
+  border: 0;
+  box-sizing: border-box;
+  color: #111827;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 4px;
+  padding: 32px 16px;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  border-radius: 10px;
+  width: 180px;
+}
+
+.button:hover {
+  background-color: rgb(216, 248, 198);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+
+.space {
+    width: 28px;
+    height: auto;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding:  16px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    width: 180px;
+    height: 50px;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #eaeaea;
+    width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {background-color:#F7F7F7;font-weight: 900;}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+.dropdown:hover .dropbtn {
+    background-color: #F7F7F7;
+}
+
+.dropdownl{
+    border-style: inset none none;
+    border-width: 1px;
+    width: 80%;
+    border-color:#BBBBBB ;
+}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+.implink{
+    background-color:#237c89;
+    width: 60%;
+    height:650px;
+    border-radius: 12px;
+}
+
+.a1 {
+    color: white;
+    padding: 12px 16px; 
+    text-decoration: none;
+    display: block;
+    font-size: 25px;
+}
+
+.HRsmall{
+    width:5%;
+    height:8px;
+    background-color:#008ec1 ;
+}
+
+.grad{
+    background-color: #c2e59c; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#B8FFF9,#FFBED8,#FFC286);
+}
+
+.HRsmall2{
+    width: 12%;
+    height: 6px;
+    background-color: yellow;
+}
