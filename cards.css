@@ -3,13 +3,14 @@
     padding: 0px;
 }
 
-.main{
+/*.main{
 
-}
+}*/
 
 .card1{
     width: 20%;
-    background-color: rgb(155, 221, 228);
+    /*background-color: rgb(155, 221, 228);*/
+    background-image: linear-gradient(to top, #4a6dc7,#199999);
     border-radius: 5px;
     margin: 20px;
     border-style: solid;
