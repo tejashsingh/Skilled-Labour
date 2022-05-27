@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*.main{
+
+}*/
+
+.card1{
+    width: 20%;
+    /*background-color: rgb(155, 221, 228);*/
+    background-image: linear-gradient(20deg,#EC9B3B, #f8f675,#f7f7f7);
+    border-radius: 14px;
+    margin: 20px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: black;
+    /*border-radius: 5px;*/
+    display: inline-block;
+}
+
+.card1:hover{
+    box-shadow: 2px 2px 10px black;
+}
+
+.image1 img{
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.subhead1{
+    text-align: center;
+}
+
+.des1{
+    text-align: center;
+}
+
+.card2{
+    width: 20%;
+    /*background-color: rgb(155, 221, 228);*/
+    background-color: rgb(172, 172, 172);
+    border-radius: 14px;
+    margin: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    /*border-radius: 5px;*/
+    display: inline-block;
+    
+    border-color: black;
+}
