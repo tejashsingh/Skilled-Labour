@@ -10,7 +10,7 @@
 .card1{
     width: 20%;
     /*background-color: rgb(155, 221, 228);*/
-    background-image: linear-gradient(20deg,#EC9B3B, #f8f675,#f7f7f7);
+    background-image: linear-gradient(20deg,#ec9c3b89, #fffd71ce,#f7f7f71a);
     border-radius: 14px;
     margin: 20px;
     border-style: solid;
@@ -41,7 +41,7 @@
 .card2{
     width: 20%;
     /*background-color: rgb(155, 221, 228);*/
-    background-color: rgb(172, 172, 172);
+    background-image:linear-gradient(160deg, rgba(205, 40, 40, 0.899),rgb(249, 167, 167)) ;
     border-radius: 14px;
     margin: 20px;
     border-style: solid;
